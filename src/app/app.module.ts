@@ -11,6 +11,7 @@ import { OutputPropertyComponent } from './output-property/output-property.compo
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { CicloComponent } from './ciclo/ciclo.component';
+import { DiretivasNgifComponent } from './diretivas-ngif/diretivas-ngif.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { CicloComponent } from './ciclo/ciclo.component';
     DataBindingComponent,
     InputPropertyComponent,
     OutputPropertyComponent,
-    CicloComponent
+    CicloComponent,
+    DiretivasNgifComponent
   ],
   imports: [
     BrowserModule,
